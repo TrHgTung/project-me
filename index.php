@@ -1,5 +1,10 @@
 <?php
-    
+    session_start();
+
+    include("connection.php");
+    include("functions.php");
+
+   // $user_data = check_login($con);
 ?>
 
 <!DOCTYPE html>
@@ -10,26 +15,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <style>
         @keyframes mountains_behind{
             0%   {left:-200px; top:400px;}
-            25% {left: -125px; top: 250px;}
+            
             50% {left: -75px; top: 150px;}
-            75% {left: -25px; top: 75px;}
+            
             100%  { left:0; top:0px;}
-            /*25%  { left:0; top:0px;}*/
-           /* 50%  { left: 200px; top:100px;} */
-           /* 75%  { left:0px; top:200px;} */
-            /*100% { left:0px; top:0px;}*/
+            
         }
         @keyframes moon{
-            0%   {left:0px; top:-200px;opacity: 0;}
-            25%   {left:0px; top:-200px;opacity: 0;}
-            50%   {left:0px; top:-200px; opacity: 1;}
-            /*25% {left: 05px; top: 250px;}*/
-            /*50% {left: 0px; top: 150px;}*/
-            /*75% {left: 0px; top: 75px;}*/
-            100%  { left:0; top:0px;}
+            0%   {opacity: 0;}
+            
+            50%  {  opacity:1; }
+
+            100% { opacity: 0.5}
         }
 
         @keyframes mountains_front{
@@ -81,12 +82,12 @@
         <img src="images/mountains_behind.png" alt="" id="mountains_behind">
         <h2 id="text">Welcome</h2>
         
-        <a href="pages/explorer.php" id="btn">to the Pokémon world</a>
+        <a href="login.php" id="btn">to the Pokémon world</a>
         <img src="images/mountains_front.png" alt="" id="mountains_front">
     
         <img src="images/little-pkm.png" alt="" id="little-pkm">
         <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm">
-        <img src="images/little-pokeball.png" alt="" id="little-pokeball">
+        
 
     </section>
     <footer class="footer">

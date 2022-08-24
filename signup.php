@@ -1,33 +1,31 @@
 <?php
-//check login session
 session_start();
 
-include("connection.php");
-include("functions.php");
+    include("connection.php");
+    include("functions.php");
 
-//$user_data = check_login($con);
 
-if($_SERVER['REQUEST_METHOD'] == "POST"){
-    $user_name = $_POST['user_name'];
-    $password = $_POST['password'];
+    if($_SERVER['REQUEST_METHOD'] == "POST"){
+        $user_name = $_POST['user_name'];
+        $password = $_POST['password'];
 
-    if(!empty($user_name) && !empty($password)){
-        // save to database
-        $user_id = random_num(20);
-        $query = "insert into users ('user_id','user_name','password') values ('$user_id','$user_name','$password')";
-    
-    
-        mysqli_query($con,$query);
+        if(!empty($user_name) && !empty($password) && !is_numeric($user_name)){
+            //
+            $user_id = random_num(20);
+            $query = "insert into users (user_id,user_name,password) values ('$user_id','$user_name','$password')";
 
-        header('Location: login.php');
-        die;
+            mysqli_query($con, $query);
+
+            header("Location: login.php");
+            die;
+        }else{
+            echo "Please enter some value";
+        }
     }
-    else{
-        echo "Please enter information";
-    }
-}
 
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,42 +33,30 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/login-style.css">
-    <title>Đăng ký</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto+Slab:wght@600&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Play:wght@700&family=Poppins&family=Roboto+Slab:wght@600&display=swap');
-    </style>
+    <link rel="stylesheet" href="./css/login-style.css?v=<?php echo time(); ?>"> 
+    <link rel="stylesheet" href="./css/validate.css?v=<?php echo time(); ?>"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">  
+    <link rel="icon" href="./img/Logo/Icon.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/0591fa8989.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <title>ĐĂNG KÝ</title>
 </head>
-<body>
-    
-    <div class="main">
-        <div class="container">
-            <div class="mini-container">
-                <h1>SIGN UP</h1>
-                <h3 align="center">Create new account</h3>
-            </div>
-            <br>
-            <form method="POST">
-                <div class="input">
-                    <input id="text" name="text" type="text" placeholder="Enter a username you like"> <br> <br><br>
-                    <input id="password" name="password" type="password" placeholder="Enter a password you can remember easily"> <br>
-                    <br><br>
-                    
-                    <div class="login-btn">
-                        <input id="button" type="submit" value="REGISTER"> <br>
-                    </div>
-                </div>
-                <div class="signup">
-                    
-                    <p>You've had an account already? So, <a href="login.php">log-in</a> now!!</p>
-                </div>
-            </form>
-       </div>
-        
-        
-    </div> 
-  
-    
+    <div>
+        <form action="" method="POST">
+            <input type="text" name="user_name" id="">
+            <input type="password" name="password" id="">
+
+            <input type="submit" value="Signin">
+
+            Have an account already? Just <a href="login.php">log in</a>
+            
+        </form>
+    </div>
+
 </body>
-</html>
+</html> 
+

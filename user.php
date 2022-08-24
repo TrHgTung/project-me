@@ -15,12 +15,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Poké-Dex</title>
+    <script src="js/pokemon_api.JS" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/dexStyle.css" >
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     
-    <link rel="stylesheet" type="text/css" href="css/style.css" >
-    <script type="text/javascript" src="jquery.js">  
-        // js 2.x.x is now old version // been added on 30 July 2022
-    </script>
     <style>
         @keyframes mountains_behind{
             0%   {left:-200px; top:400px;}
@@ -34,13 +33,11 @@
             /*100% { left:0px; top:0px;}*/
         }
         @keyframes moon{
-            0%   {left:0px; top:-200px;opacity: 0;}
-            25%   {left:0px; top:-200px;opacity: 0;}
-            50%   {left:0px; top:-200px; opacity: 1;}
-            /*25% {left: 05px; top: 250px;}*/
-            /*50% {left: 0px; top: 150px;}*/
-            /*75% {left: 0px; top: 75px;}*/
-            100%  { left:0; top:0px;}
+            0%   {opacity: 0;}
+            
+            50%  {  opacity:1; }
+
+            100% { opacity: 0.5}
         }
 
         @keyframes mountains_front{
@@ -83,7 +80,6 @@
         <ul>
             <li><a href="user.php" class="active">Home</a></li>
             <li><a href="logout.php">Log Out</a></li>
-            <li> <?php echo $_SESSION['user_name']; ?> </li>
             <li><a href="#">
                 <?php //echo $user_data['user_name']; ?>
             </a></li>
@@ -96,76 +92,29 @@
         <img src="images/mountains_behind.png" alt="" id="mountains_behind">
         <!-- h2 id="text">Welcome</!-->
         <center>
-           
-            <script type="text/javascript">
-
-            </script>
              
-            <form action="" name="form">
-                <input type="text" placeholder="Search for .." id="name">
-                <input type="submit" value='Search'  id="btn" onClick="get();">
+            <form action="" id="form" name="form">
+                <input type="text" name="searchBar" id="searchBox" size= 30 placeholder="Pokémon species.." align="right">
+               
             </form>
+            
         </center>
         <!-- <a href="pages/explorer.php" id="btn">to the Pokémon world</a> -->
         <img src="images/mountains_front.png" alt="" id="mountains_front">
     
         <img src="images/little-pkm.png" alt="" id="little-pkm">
         <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm">
-        <img src="images/little-pokeball.png" alt="" id="little-pokeball">
 
     </section>
-    <!-- Downner added at 11:27 30th July 2022 -->
-    
-    <!-- <script type="text/javascript">
-
-    </script>
-    <form action="" name="form">
-        <input type="text" placeholder="Search for .." name="name">
-        <input type="button" value="Search" onClick="get();">
-    </form>
--->
-
-    <!--- Upper added on 30 July 2022 -->
+   
 
     <footer class="footer">
-        <div class="grid footer__container">
-        <div class="grid footer__container">
-        <ul>
-            <li>
-                <h3>Pokémon</h3>
-                <ul class="foot-item-box">
-                    <li>Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996 </li>
-                    <li>The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 913 Pokémon species (2019).</li>
-                    <li>Email: <a href="mailto:tungng14@gmail.com"><b>tungng14@gmail.com</b></a></li>
-                    <!-- 
-                     and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, 
-                     catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. 
-                     --->
-                    
-                </ul>
-            </li>
-            <li>
-                <h3>Contact Me: </h3>
-                <ul>
-                    <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank">Nguyen Tuan Hung</a></li>
-                    <li>instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
-                </ul>
-            </li>
-            <li>
-                <h3>Detail:</h3>
-                <ul>
-                    <li>SĐT của bố mày: <b>090******0</b></li>
-                   
-                    
-                </ul>
-            </li>
-            <li>
-            <h3>Donate UwU:</h3>
-            <ul>
-                <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Buy Me A Coffee!</a></li>
-               
-            </ul>
+        <h1>You're looking for ..</h1>
+        <div class="search__container" id="search__containerID">
+            <!-- <input type="text" name="searchBar" id="searchBox" placeholder="Pokemon species.." align="right"> -->
         </div>
+        <div class="pokemon__container" id="pokemon__containerID"></div>
+        
     </footer>
 
         

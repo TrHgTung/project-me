@@ -1,13 +1,13 @@
 <?php
 
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "pokemondb";
 
-
-    $mysqli = new mysqli("localhost","root","","pokemondb");
-
-    // Check connection
-    if ($mysqli->connect_errno) {
-      echo "Failed to connect to MySQL: " . $mysqli->connect_error;
-      exit();
-    }
+if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
+{
+  die("Failed to connect");
+}
 ?>
     
