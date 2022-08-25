@@ -16,6 +16,13 @@ const createPokemonCard = (pokemon) => {
   PokemonElement.setAttribute("id", PokemonName);
   const PokemonID = pokemon.id;
   const PokemonType = pokemon.types[0].type.name;
+  const PokemonAbility = pokemon.abilities[0].ability.name; /** */
+  const PokemonAtk = pokemon.stats[1].base_stat; /** */
+  const PokemonSpeed = pokemon.stats[5].base_stat;
+  const PokemonSpAtk = pokemon.stats[3].base_stat;
+  const PokemonWeight = (pokemon.weight)/10;
+  const PokemonDef = pokemon.stats[2].base_stat;
+  const PokemonHP = pokemon.stats[0].base_stat;
   const PokemonTypeColors = {
     fire: "#EE8130",
     grass: "#7AC74C",
@@ -45,7 +52,14 @@ const createPokemonCard = (pokemon) => {
     <div class="pokemon__infomationContainer">
       <span class="pokemon__id">#${PokemonID.toString().padStart(3, "0")}</span>
       <h3 class="pokemon__name">${PokemonName}</h3>
-      <small class="pokemon__type">Type: <span>${PokemonType}</span></small>
+      <small class="pokemon__type"><b>Hệ: </b><span>${PokemonType}</span></small><br>
+      <small class="pokemon__ability"><b>Đặc tính: </b><span>${PokemonAbility}</span></small><br>
+      <small class="pokemon__Atk"><b>Chỉ số tấn công (cơ bản):</b> <span>${PokemonAtk}</span></small><br>
+      <small class="pokemon_SpAtk"><b>Chỉ số tấn công đặc biệt: </b><span>${PokemonSpAtk}</span></small><br>
+      <small class="pokemon_Speed"><b>Chỉ số tốc độ (cơ bản): </b><span>${PokemonSpeed}</span></small><br>
+      <small class="pokemon_SpAtk"><b>Chỉ số phòng thủ (cơ bản): </b><span>${PokemonDef}</span></small><br>
+      <small class="pokemon_Speed"><b>Chỉ số HP: </b><span>${PokemonHP}</span></small><br>
+      <small class="pokemon_Speed"><b>Cân nặng: </b><span>${PokemonWeight} kg</span></small>
     </div>`;
   PokemonElement.setAttribute("class", "pokemon__card");
   PokemonElement.innerHTML = PokemonInnerHTML;

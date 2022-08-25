@@ -75,7 +75,7 @@ section img#mountains_fronts{
 #btn{
     text-decoration: none;
     position: relative;
-   
+    opacity: 80%;
     padding: 8px 30px;
     border-radius: 40px;
     background: orange; /* #5d80cb */
@@ -85,6 +85,8 @@ section img#mountains_fronts{
     transform: translateY(120px);
     
 }
+
+
 /* FOOTING */
 footer {
     width: 100%;
@@ -253,3 +255,49 @@ form{
     animation-duration: 7.5s;
 }
 
+center>form>p{
+    position: absolute;
+    color: white;
+    text-align:justify;
+    size: 2em;
+}
+center>div>p{
+    top: 3em;
+    position: absolute;
+    color: white;
+    size: 2em;
+}
+
+center>form>p>a{
+    position: relative;
+    color: yellow;
+    font-size: 18px;
+}
+center>div>p>a{
+    position: relative;
+    color:yellow;
+}
+
+#user_name, #password{
+    background-color: wheat;
+    color: black;
+    height: 3.5em;
+}
+
+#radio-btn{
+    position:absolute;
+    text-align: center;
+    color: black;
+}
+
+a#url-none{
+    color: yellow;
+    font-size: 12pt;
+}
+#datetime-picker{
+    position: relative;
+}
+p#purpose{
+    position: relative;
+    text-align: left;
+}

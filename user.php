@@ -78,8 +78,8 @@
     <header>
         <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" class="logo">pokémon</a>
         <ul>
-            <li><a href="user.php" class="active">Home</a></li>
-            <li><a href="logout.php">Log Out</a></li>
+            <li><a href="user.php" class="active">Trang chủ</a></li>
+            <li><a href="logout.php">Đăng xuất</a></li>
             <li><a href="#">
                 <?php //echo $user_data['user_name']; ?>
             </a></li>
@@ -94,7 +94,7 @@
         <center>
              
             <form action="" id="form" name="form">
-                <input type="text" name="searchBar" id="searchBox" size= 30 placeholder="Pokémon species.." align="right">
+                <input type="text" name="searchBar" id="searchBox" size= 30 placeholder="Tên 1 loài Pokémon.." align="right">
                
             </form>
             
@@ -109,7 +109,7 @@
    
 
     <footer class="footer">
-        <h1>You're looking for ..</h1>
+        <h1>Có phải bạn đang tìm ..</h1>
         <div class="search__container" id="search__containerID">
             <!-- <input type="text" name="searchBar" id="searchBox" placeholder="Pokemon species.." align="right"> -->
         </div>
