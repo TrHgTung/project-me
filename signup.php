@@ -67,9 +67,9 @@ session_start();
         <center>
         
             <form action="" method="POST">
-                <p>Tên đăng nhập:</p><input type="text" name="user_name" id="user_name" size=35 placeholder= " VD: ash_ketchum123"><br><br>
-                <p>Mật khẩu:</p> <input type="password" name="password" id="password" size=35 placeholder=" VD: AnhTungDzVjpPr02002"><br><br><br>
-                <p>Ngày sinh:</p>  <input type="date" value="Ngày sinh" id="datetime-picker" ><br><br>
+                <p>Tên đăng nhập:</p><input type="text" name="user_name" id="user_name" size=35 placeholder= " VD: ash_ketchum123" required><br><br>
+                <p>Mật khẩu:</p> <input type="password" name="password" id="password" size=35 placeholder=" VD: AnhTungDzVjpPr02002" required><br><br><br>
+                <p>Ngày sinh:</p>  <input type="date" value="Ngày sinh" id="datetime-picker" required><br><br>
 
                 <p id="purpose">Bằng cách nhấn Đăng ký, bạn đã chấp thuận với tất cả các Điều khoản của trang web, các dữ liệu cá nhân này sẽ luôn được lưu trữ với duy nhất <a href="#" id="url-none">một mục đích nghiên cứu phi lợi nhuận</a>.</p>
 

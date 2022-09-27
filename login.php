@@ -86,8 +86,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 <!--- downer here --->
         <center>
             <form action="" method="POST">
-                <input type="text" name="user_name" id="user_name" placeholder="Tên Đăng nhập" size=35><br><br>
-                <input type="password" name="password" id="password"  placeholder="Mật khẩu" size=35><br><br>
+                <input type="text" name="user_name" id="user_name" placeholder="Tên Đăng nhập" size=35 required><br><br>
+                <input type="password" name="password" id="password"  placeholder="Mật khẩu" size=35 required><br><br>
 
                 <input type="submit" value="Đăng nhập" id="btn">
 
@@ -102,8 +102,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
             
         </center>
     
-
-
     <!-- upper here -->
     </section>
     <footer class="footer">

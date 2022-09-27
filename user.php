@@ -93,10 +93,15 @@
         <!-- h2 id="text">Welcome</!-->
         <center>
              
-            <form action="" id="form" name="form">
-                <input type="text" name="searchBar" id="searchBox" size= 30 placeholder="Tên 1 loài Pokémon.." align="right">
+            <!-- <form action="" id="form" name="form"> -->
+                <!-- <input type="text" name="searchBar" id="searchBox" size= 30 placeholder="Tên 1 loài Pokémon.." align="right"> -->
                
-            </form>
+            <!-- </form> -->
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="searchBar" id="searchBox" placeholder="Tìm Pokémon.." >
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
             
         </center>
         <!-- <a href="pages/explorer.php" id="btn">to the Pokémon world</a> -->

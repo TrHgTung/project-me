@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     min-height: 100vh;
-    background: linear-gradient(#2b1055,#7597de);
+    background: linear-gradient(#2b1055, #7597de);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,9 +31,10 @@ h1 {
     max-width: 100vw;
 }
 
-footer #search__containerID #searchBox{
+footer #search__containerID #searchBox {
     text-align: center;
 }
+
 .pokemon__card {
     background: #eeeeee;
     border-radius: 20px;
@@ -68,7 +70,58 @@ footer #search__containerID #searchBox{
     letter-spacing: 1px;
 }
 
-header{
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    transition: 0.5s;
+    box-shadow: inset 0 5px 5px #ced0df, 0 -5px 10px #f3f3f3, inset 0 -5px 5px #eff1f0, 0 10px 15px #cdd4de;
+    overflow: hidden;
+}
+
+i {
+    padding: 4px;
+    color: #697b89;
+}
+
+input {
+    opacity: 0;
+    transform: translate(-50px);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100px;
+    padding: 0 20px;
+    /* size: 30; */
+}
+
+.search:focus-within {
+    width: 200px;
+}
+
+.search:focus-within input {
+    opacity: 1;
+    transform: translate(0);
+}
+
+input~i {
+    opacity: 0;
+    transform: translate(50px);
+    transition: 0.5s;
+}
+
+input:valid~i {
+    opacity: 1;
+    transform: translate(0);
+}
+
+header {
     position: absolute;
     top: 0;
     left: 0;
@@ -79,7 +132,8 @@ header{
     align-items: center;
     z-index: 10000;
 }
-header .logo{
+
+header .logo {
     color: #fff;
     font-weight: 700;
     text-decoration: none;
@@ -87,26 +141,32 @@ header .logo{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-header ul{
+
+header ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header ul li{
+
+header ul li {
     list-style: none;
     margin-left: 20px;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
 }
-header ul li a:hover , header ul li a.active{
+
+header ul li a:hover,
+header ul li a.active {
     background: #fff;
     color: #2b1055;
 }
-section{
+
+section {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -115,7 +175,8 @@ section{
     justify-content: center;
     align-items: center;
 }
-section img{
+
+section img {
     position: absolute;
     top: 0;
     left: 0;
@@ -125,32 +186,34 @@ section img{
     pointer-events: none;
 }
 
-section img#mountains_fronts{
+section img#mountains_fronts {
     z-index: 10;
 
 }
 
 
-#btn{
+#btn {
     text-decoration: none;
     position: relative;
-   
+
     padding: 8px 30px;
     border-radius: 40px;
-    background: orange; /* #5d80cb */
+    background: orange;
+    /* #5d80cb */
     color: black;
     font-size: 1.2em;
     z-index: 9;
     transform: translateY(120px);
-    
+
 }
+
 /* FOOTING */
 footer {
     width: 100%;
     /* position: absolute; */
     top: 100%;
     /* height: 300px; */
-    background: linear-gradient(120deg,orange, blue);
+    background: linear-gradient(120deg, orange, blue);
 }
 
 .footer__container {
@@ -180,14 +243,14 @@ footer {
 
 .footer__container>ul>li>ul {
     width: 100%;
-    margin-top: 10px; 
-    text-align: left; 
+    margin-top: 10px;
+    text-align: left;
 }
 
 .footer__container>ul>li>ul>li,
 .footer__container>ul>li>ul>li>a {
     color: var(--primary);
-    font-size: 16px; 
+    font-size: 16px;
     margin: 20px 0;
     line-height: 20px;
     list-style: square;
@@ -231,19 +294,22 @@ footer {
 .footer__container>ul>li>.foot-item-box>li a {
     text-decoration: underline;
 }
-#form{
+
+#form {
     text-align: center;
 }
-center{
+
+center {
     margin: auto;
     width: 50%;
     border: none;
     padding: 15px;
 }
-#name{
+
+#name {
     position: absolute;
     text-decoration: none;
-    display:grid;
+    display: grid;
     padding: 8px 30px;
     border-radius: 40px;
     background: #fff;
@@ -252,48 +318,51 @@ center{
     z-index: 5;
     transform: translateY(120px);
 }
-section img#mountains_front{
-    
+
+section img#mountains_front {
+
     position: absolute;
     animation-name: mountains_front;
     animation-duration: 2s;
 
 }
-section img#mountains_behind{
-    
+
+section img#mountains_behind {
+
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: mountains_behind;
     animation-duration: 5s;
-    
+
     /* changed at 19:58 04-Aug-2022 (U) */
 }
 
-section img#moon{
+section img#moon {
     mix-blend-mode: screen;
-    
+
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: moon;
     animation-duration: 3.5s;
     opacity: 0.5;
-    
+
     /* changed at 19:58 04-Aug-2022 (U) */
 
 }
-section img#little-starters-pkm{
+
+section img#little-starters-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
     animation-duration: 5.5s;
 }
 
-section img#little-pkm{
+section img#little-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
     animation-duration: 5.5s;
 }
 
-#text{
+#text {
     position: absolute;
     color: white;
     white-space: nowrap;
@@ -303,13 +372,15 @@ section img#little-pkm{
     animation-duration: 8s;
 
 }
-ul li,a,script#des{
-    animation-name: atext;
-    animation-duration: 7.5s;
-}
-form{
+
+ul li,
+a,
+script#des {
     animation-name: atext;
     animation-duration: 7.5s;
 }
 
-
+form {
+    animation-name: atext;
+    animation-duration: 7.5s;
+}
