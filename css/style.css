@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     min-height: 100vh;
-    background: linear-gradient(#2b1055,#7597de);
+    background: linear-gradient(#2b1055, #7597de);
 }
-header{
+
+header {
     position: absolute;
     top: 0;
     left: 0;
@@ -20,34 +23,50 @@ header{
     align-items: center;
     z-index: 10000;
 }
-header .logo{
+
+header .logo {
     color: #fff;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
 }
-header ul{
+
+.text {
+    position: absolute;
+    z-index: 9;
+    animation-name: atext;
+    animation-duration: 1s;
+    font-family: 'Poppins', sans-serif;
+}
+
+header ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header ul li{
+
+header ul li {
     list-style: none;
     margin-left: 20px;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
 }
-header ul li a:hover , header ul li a.active{
+
+header ul li a:hover,
+header ul li a.active {
     background: #fff;
     color: #2b1055;
 }
-section{
+
+section {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -56,7 +75,8 @@ section{
     justify-content: center;
     align-items: center;
 }
-section img{
+
+section img {
     position: absolute;
     top: 0;
     left: 0;
@@ -66,24 +86,26 @@ section img{
     pointer-events: none;
 }
 
-section img#mountains_fronts{
+section img#mountains_fronts {
     z-index: 10;
 
 }
 
 
-#btn{
+.button {
     text-decoration: none;
     position: relative;
     opacity: 80%;
     padding: 8px 30px;
     border-radius: 40px;
-    background: orange; /* #5d80cb */
+    background: orange;
+    font-family: 'Poppins', sans-serif;
+    /* #5d80cb */
     color: black;
     font-size: 1.2em;
     z-index: 9;
     transform: translateY(120px);
-    
+
 }
 
 
@@ -93,7 +115,7 @@ footer {
     /* position: absolute; */
     top: 100%;
     /* height: 300px; */
-    background: linear-gradient(120deg,orange, blue);
+    background: linear-gradient(120deg, orange, blue);
 }
 
 .footer__container {
@@ -123,14 +145,14 @@ footer {
 
 .footer__container>ul>li>ul {
     width: 100%;
-    margin-top: 10px; 
-    text-align: left; 
+    margin-top: 10px;
+    text-align: left;
 }
 
 .footer__container>ul>li>ul>li,
 .footer__container>ul>li>ul>li>a {
     color: var(--primary);
-    font-size: 16px; 
+    font-size: 16px;
     margin: 20px 0;
     line-height: 20px;
     list-style: square;
@@ -174,19 +196,22 @@ footer {
 .footer__container>ul>li>.foot-item-box>li a {
     text-decoration: underline;
 }
-#form{
+
+#form {
     text-align: center;
 }
-center{
+
+center {
     margin: auto;
     width: 50%;
     border: none;
     padding: 15px;
 }
-#name{
+
+#name {
     position: absolute;
     text-decoration: none;
-    display:grid;
+    display: grid;
     padding: 8px 30px;
     border-radius: 40px;
     background: #fff;
@@ -195,109 +220,110 @@ center{
     z-index: 5;
     transform: translateY(120px);
 }
-section img#mountains_front{
-    
+
+section img#mountains_front {
+
     position: absolute;
     animation-name: mountains_front;
     animation-duration: 2s;
 
 }
-section img#mountains_behind{
-    
+
+section img#mountains_behind {
+
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: mountains_behind;
     animation-duration: 5s;
-    
+
     /* changed at 19:58 04-Aug-2022 (U) */
 }
 
-section img#moon{
+section img#moon {
     mix-blend-mode: screen;
-    
+
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: moon;
     animation-duration: 3.5s;
     opacity: 0.5;
-    
+
     /* changed at 19:58 04-Aug-2022 (U) */
 
 }
-section img#little-starters-pkm{
+
+section img#little-starters-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
     animation-duration: 5.5s;
 }
 
-section img#little-pkm{
+section img#little-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
     animation-duration: 5.5s;
 }
 
-#text{
-    position: absolute;
-    color: white;
-    white-space: nowrap;
-    font-size: 3.5vw;
-    z-index: 9;
-    animation-name: atext;
-    animation-duration: 8s;
-
-}
-ul li,a,script#des{
-    animation-name: atext;
-    animation-duration: 7.5s;
-}
-form{
+ul li,
+a,
+script#des {
     animation-name: atext;
     animation-duration: 7.5s;
 }
 
-center>form>p{
+form {
+    animation-name: atext;
+    animation-duration: 7.5s;
+}
+
+center>form>p {
     position: absolute;
     color: white;
-    text-align:justify;
+    text-align: justify;
     size: 2em;
 }
-center>div>p{
+
+center>div>p {
     top: 3em;
     position: absolute;
     color: white;
     size: 2em;
 }
 
-center>form>p>a{
+center>form>p>a {
     position: relative;
     color: yellow;
     font-size: 18px;
 }
-center>div>p>a{
+
+center>div>p>a {
     position: relative;
-    color:yellow;
+    color: yellow;
 }
 
-#user_name, #password{
+#user_name,
+#password {
     background-color: wheat;
     color: black;
     height: 3.5em;
 }
 
-#radio-btn{
-    position:absolute;
+#radio-btn {
+    position: absolute;
     text-align: center;
     color: black;
 }
 
-a#url-none{
+a#url-none {
     color: yellow;
     font-size: 12pt;
 }
-#datetime-picker{
+
+#datetime-picker {
     position: relative;
 }
-p#purpose{
+
+p#purpose {
     position: relative;
     text-align: left;
 }
