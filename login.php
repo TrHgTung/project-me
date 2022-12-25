@@ -2,8 +2,8 @@
 
 session_start();
 
-include("connection.php");
-include("functions.php");
+include("./connection.php");
+include("./functions.php");
 
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 if($user_data['password'] === $password){
                     $_SESSION['user_id'] = $user_data['user_id'];
 
-                    header("Location: user.php");
+                    header("Location: ./user.php");
                     die;
                 }
             }

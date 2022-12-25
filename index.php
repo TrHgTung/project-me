@@ -22,59 +22,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <title>Home Page</title>
-    <style>
-        @keyframes mountains_behind{
-            0%   {left:-200px; top:400px;}
-            
-            50% {left: -75px; top: 150px;}
-            
-            100%  { left:0; top:0px;}
-            
-        }
-        @keyframes moon{
-            0%   {opacity: 0;}
-            
-            50%  {  opacity:1; }
-
-            100% { opacity: 0.5}
-        }
-
-        @keyframes mountains_front{
-            0%   {opacity: 0; top: 20px}
-            100%  { opacity: 1; top: 0px}
-        }
-        @keyframes little-starters-pkm{
-       
-            75%   {opacity: 0; }
-            80%   {opacity: 0.5; }
-            100%  { opacity: 1; }
-        }
-        @keyframes atext{
-            80%   {opacity: 0.5; }
-            100% {opacity: 1;}
-        }
-        @keyframes acontent{
-            0% {opacity: 0;}
-            100% {opacity: 1;}
-        }
-        @keyframes aball {
-            0%  {opacity: 0;  top:-100px; left:-40px}
-            30% {opacity: 0.5; top: 0px; left: 0px}
-            60% {opacity: 1;}
-            100% {top:0px; left: 0px}
-
-        }
-    </style>
   </head>
 
   <body>
     <header>
-        <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" class="logo">pokémon</a>
-        <ul>
-            <li><a href="user.php" class="active">Home</a></li>
-            <li><a href="login.php">Login</a></li>
-            <li><a href="about-me.php">About Me!</a></li>
-        </ul>
+        <div class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="logo navbar-brand" href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" >pokémon</a>
+            </div>   
+        </div>
+       <div>
+            <ul>
+                <li class="nav-item"><a class="active" href="user.php">Tìm</a></li>
+                <li class="nav-item"><a href="login.php">Đăng nhập</a></li>
+                <li class="nav-item"><a href="about-me.php">Tác giả</a></li>
+            </ul>
+       </div>
+        
     </header>
     <section>
         <img src="images/stars.png" alt="" id="stars">
@@ -84,12 +48,12 @@
         <img src="images/little-pkm.png" alt="" id="little-pkm">
         <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm">
         
-        <div>
+        <div class="face-container">
             <div >
                 <p class="fs-1 text text-white">Welcome</p>
             </div>
             <div>
-                <a href="login.php" class="btn btn-primary button" role="button" >to the Pokémon world</a>
+                <a href="login.php" class="btn btn-warning button rounded-pill" role="button" >to the Pokémon world</a>
             </div>  
         </div>
     </section>
@@ -101,31 +65,30 @@
                 <h3>Pokémon</h3>
                 <ul class="foot-item-box">
                     <li>Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996 </li>
-                    <li>The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 913 Pokémon species (2019).</li>
-                    <li>Email: <a href="mailto:tungng14@gmail.com"><b>tungng14@gmail.com</b></a></li>               
+                    <li>The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 913 Pokémon species (2019).</li>            
                 </ul>
             </li>
             <li>
                 <h3>Contact Me: </h3>
                 <ul>
                     <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank">Nguyen Tuan Hung</a></li>
-                    <li>instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
+                    <li>Instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
                 </ul>
             </li>
             <li>
                 <h3>Detail:</h3>
                 <ul>
-                    <li>SĐT của bố mày: <b>090******0</b></li>
-                   
-                    
+                    <li>Phone no.: <b>090******0</b></li>
+                    <li>Email: <a href="mailto:tungng14@gmail.com"><b>tungng14@gmail.com</b></a></li>    
                 </ul>
             </li>
             <li>
-            <h3>Donate UwU:</h3>
-            <ul>
-                <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Buy Me A Coffee!</a></li>
-               
-            </ul>
+                <h3>Donate UwU:</h3>
+                <ul>
+                    <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Buy Me A Coffee!</a></li> 
+                    <li><a href="https://trhgtung.github.io/git-page/" target="_blank">MoMo! (test)</a></li>
+                </ul>
+            </li>
         </div>
     </footer>
   </body>
