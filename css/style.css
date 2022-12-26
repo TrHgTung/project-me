@@ -1,5 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+@keyframes mountains_behind {
+    0% {
+        left: -200px;
+        top: 400px;
+    }
+
+    50% {
+        left: -75px;
+        top: 150px;
+    }
+
+    100% {
+        left: 0;
+        top: 0px;
+    }
+
+}
+
+@keyframes moon {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5
+    }
+}
+
+@keyframes mountains_front {
+    0% {
+        opacity: 0;
+        top: 20px
+    }
+
+    100% {
+        opacity: 1;
+        top: 0px
+    }
+}
+
+@keyframes little-starters-pkm {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes atext {
+    80% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes acontent {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.face-container {
+    animation-name: acontent;
+    animation-duration: 1.25s;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,14 +122,14 @@ header .logo {
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text {
     position: absolute;
     z-index: 9;
     animation-name: atext;
-    animation-duration: 1s;
-    font-family: 'Poppins', sans-serif;
+    animation-duration: 0.25s;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -225,7 +316,7 @@ section img#mountains_front {
 
     position: absolute;
     animation-name: mountains_front;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
 
 }
 
@@ -234,7 +325,7 @@ section img#mountains_behind {
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: mountains_behind;
-    animation-duration: 5s;
+    animation-duration: 0.5s;
 
     /* changed at 19:58 04-Aug-2022 (U) */
 }
@@ -245,7 +336,7 @@ section img#moon {
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: moon;
-    animation-duration: 3.5s;
+    animation-duration: 1s;
     opacity: 0.5;
 
     /* changed at 19:58 04-Aug-2022 (U) */
@@ -255,25 +346,25 @@ section img#moon {
 section img#little-starters-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
-    animation-duration: 5.5s;
+    animation-duration: 1.5s;
 }
 
 section img#little-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
-    animation-duration: 5.5s;
+    animation-duration: 1.5s;
 }
 
 ul li,
 a,
 script#des {
     animation-name: atext;
-    animation-duration: 7.5s;
+    animation-duration: 1.5s;
 }
 
 form {
     animation-name: atext;
-    animation-duration: 7.5s;
+    animation-duration: 1.5s;
 }
 
 center>form>p {

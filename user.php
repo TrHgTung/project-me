@@ -17,61 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poké-Dex</title>
     <script src="js/pokemon_api.JS" defer></script>
-    <link rel="stylesheet" type="text/css" href="css/dexStyle.css" >
+    <link rel="stylesheet" type="text/css" href="./css/dexStyle.css" >
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    
-    <style>
-        @keyframes mountains_behind{
-            0%   {left:-200px; top:400px;}
-            25% {left: -125px; top: 250px;}
-            50% {left: -75px; top: 150px;}
-            75% {left: -25px; top: 75px;}
-            100%  { left:0; top:0px;}
-            /*25%  { left:0; top:0px;}*/
-           /* 50%  { left: 200px; top:100px;} */
-           /* 75%  { left:0px; top:200px;} */
-            /*100% { left:0px; top:0px;}*/
-        }
-        @keyframes moon{
-            0%   {opacity: 0;}
-            
-            50%  {  opacity:1; }
-
-            100% { opacity: 0.5}
-        }
-
-        @keyframes mountains_front{
-            0%   {opacity: 0; top: 20px}
-            100%  { opacity: 1; top: 0px}
-        }
-        @keyframes little-starters-pkm{
-            0%   {opacity: 0; }
-            25%   {opacity: 0; }
-            50%   {opacity: 0; }
-            75%   {opacity: 0; }
-            80%   {opacity: 0.5; }
-            100%  { opacity: 1; }
-        }
-        @keyframes atext{
-            0% {opacity: 0;}
-            25%   {opacity: 0; }
-            50%   {opacity: 0; }
-            75%   {opacity: 0; }
-            80%   {opacity: 0.5; }
-            100% {opacity: 1;}
-        }
-        @keyframes acontent{
-            0% {opacity: 0;}
-            100% {opacity: 1;}
-        }
-        @keyframes aball {
-            0%  {opacity: 0;  top:-100px; left:-40px}
-            30% {opacity: 0.5; top: 0px; left: 0px}
-            60% {opacity: 1;}
-            100%    {top:0px; left: 0px}
-
-        }
-    </style>
 </head>
 <body>
     <!-- FOR LOGGED IN USERS // LOGGED IN SESSION -->
@@ -90,13 +37,7 @@
         <img src="images/stars.png" alt="" id="stars">
         <img src="images/moon.png" alt="" id="moon">
         <img src="images/mountains_behind.png" alt="" id="mountains_behind">
-        <!-- h2 id="text">Welcome</!-->
         <center>
-             
-            <!-- <form action="" id="form" name="form"> -->
-                <!-- <input type="text" name="searchBar" id="searchBox" size= 30 placeholder="Tên 1 loài Pokémon.." align="right"> -->
-               
-            <!-- </form> -->
             <div class="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" name="searchBar" id="searchBox" placeholder="Tìm Pokémon.." >
