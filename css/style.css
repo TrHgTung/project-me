@@ -88,7 +88,7 @@
 
 .face-container {
     animation-name: acontent;
-    animation-duration: 2.25s;
+    animation-duration: 1.25s;
 }
 
 * {
@@ -129,7 +129,7 @@ header .logo {
     position: absolute;
     z-index: 9;
     animation-name: atext;
-    animation-duration: 0.5s;
+    animation-duration: 0.25s;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -316,7 +316,7 @@ section img#mountains_front {
 
     position: absolute;
     animation-name: mountains_front;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 
 }
 
@@ -325,7 +325,7 @@ section img#mountains_behind {
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: mountains_behind;
-    animation-duration: 1.25s;
+    animation-duration: 0.5s;
 
     /* changed at 19:58 04-Aug-2022 (U) */
 }
@@ -336,7 +336,7 @@ section img#moon {
     /* changed at 19:58 04-Aug-2022 (L) */
     position: absolute;
     animation-name: moon;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     opacity: 0.5;
 
     /* changed at 19:58 04-Aug-2022 (U) */
@@ -346,25 +346,25 @@ section img#moon {
 section img#little-starters-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 section img#little-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 ul li,
 a,
 script#des {
     animation-name: atext;
-    animation-duration: 2.25s;
+    animation-duration: 1.5s;
 }
 
 form {
     animation-name: atext;
-    animation-duration: 2.25s;
+    animation-duration: 1.5s;
 }
 
 center>form>p {
