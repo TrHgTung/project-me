@@ -8,7 +8,7 @@
     <meta name="author" content="Hoang Tung">
     <meta name="generator" content="">
     <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
-    <title>Nov 11th, 2022 - Ash Ketchum won the finale in The Pokémon World Championship</title>
+    <title>11-11-2022 - Ash Ketchum chính thức trở thành quán quân thế giới</title>
 
     <link href="../../css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -95,9 +95,11 @@
       <img src="../images-news/heading-04.jpg" alt="" width="100%" height="100%" class="heading-01" aria-hidden="true" focusable="false">  
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>After 25 Years, Ash Ketchum Finally Becomes Pokemon World Champion.</h1>
-            <div>
-              <p>Over 25 years since the Pokemon animated series first premiered, protagonist Ash Ketchum has finally achieved his dream of becoming a World Champion. &nbsp;&nbsp;&nbsp;</p><small><b>Dịch bởi:</b> <i>Hoàng Tùng</i></small>
+            <h1>Sau 25 năm, "Thánh Sa" Ash Ketchum Lần Đầu Trở Thành Tân Vương Thế Giới.</h1>
+            <div class="mt-5">
+              <p>Sau một phần tư của thế kỷ đi chu du qua khắp các vùng miền, Ash Ketchum cuối cùng cũng đạt
+                được thành tựu mà biết bao fan hâm mộ dòng series phim hoạt hình Pokémon đã trông ngóng suốt bấy lâu nay - 
+                Chức quán quân Vô địch Thế giới Pokémon. &nbsp;&nbsp;&nbsp;</p><small><b>Dịch bởi:</b> <i>Hoàng Tùng</i> -- <b>Tham khảo:</b> <a href="https://www.cnet.com/tech/gaming/after-25-years-ash-ketchum-finally-becomes-pokemon-world-champion/" target="_blank">CNet News</a></small>
             </div>
             <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>  -->
           </div>
@@ -132,7 +134,7 @@
           <small>
             <p class="mb-2">Last updated: Dec 28th, 2022</p>
           </small>
-          <p><a class="btn btn-secondary" href="../../about-me.php">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="../../about-me.php">View his profile &raquo;</a></p>
         </div>
       </div>
     </div><!-- /.row -->
@@ -140,23 +142,24 @@
 
     <!-- START THE FEATURETTES -->
     <div>
-      <div class="text-article mt-5">During the latest episode of the Pokemon Ultimate Journeys series in Japan,
-          Ash defeated Galar champion Leon in the final round of the Masters 
-          Eight Tournament to earn the title of top trainer in the Pokemon world.</div>
+      <div class="text-article mt-5">Trong trận chung kết kinh điển vừa được công chiếu trong tập 132 - Series phim <i>Pokémon Journey (Sword and Shield)</i>,
+          Ash cùng với những người bạn đồng hành của mình (<i>Pikachu, Lucario, Dracovish, Galarian Farfetch'd, Gengar</i> và <i>Dragonite</i>) đã dũng mãnh 
+          hạ gục đương kim vô địch Leon cùng với át chủ bài Charizard để đặt chân lên đài vinh quang, với tư cách là nhà huấn luyện Pokémon tài ba nhất.</div>
       <div>&nbsp;
     </div>
     <div>
         <div class="text mt-5">
           <i>"Ash Ketchum's determination and perseverance to achieve his goal of becoming the world's top
-          Pokemon Trainer over the course of 25 seasons 
-          represents the very best of what it means to be a Trainer," </i>Taito Okiura, 
-          vice president of marketing for Pokemon Company International, said in a press release Friday.
+          Pokemon Trainer over the course of 25 years 
+          represents the very best of what it means to be a Trainer" </i>(tạm dịch: Tinh thần quyết tâm và lòng kiên định của Ash Ketchum để đạt được mục tiêu trở thành một nhà huấn luyện Pokémon 
+          tài năng nhất thế giới trong suốt 25 năm vừa qua là minh chứng huy hoàng nhất cho con đường đầy chông gai và bao tiếc nuối mà cậu bé 10 tuổi này phải từng ngày chinh phục)<i>, ông Taito Okiura</i>, 
+          phó chủ tịch marketing của The Pokémon Company, đã phát biểu ngay sau khi tập phim được phát sóng.
         </div>
     </div>
     <div>
       <div class="text mt-5">
-        The Pokemon Ultimate Journeys series is streaming in the US exclusively on Netflix.
-        The finals of the Masters Eight Tournament will air worldwide "in the future."
+        Qua tập phim này, cho chúng ta thấy được sức cuốn hút của khán giả đối với loạt phim hoạt hình này nói riêng và 
+        cả tượng đài Pokémon đã in sâu trong tâm trí những con người khi được nhắc đến những "Pikachu", "ếch kỳ diệu" hay "rùa kini" kể từ những năm cuối của thiên niên kỷ trước nói chung
       </div>
     </div>
     <div>
