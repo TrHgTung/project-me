@@ -234,7 +234,8 @@
         <p class="mt-3">Xem bài viết mà mình nói "rất rất nhiều" về Ash <a href="./news-02.php">ngay tại đây</a>.</p>
       </div>
       <div class="col-md-5 order-md-1">
-      <img src="../images-news/heading-05.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="675" ></img>
+        <img src="../images-news/heading-05.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="675" ></img>
+        <p class="text-center mt-2"><i>Ash Ketchum trên tay cúp Vô địch Thế giới cùng đồng hữu của mình</i></p>  
       </div>
     </div>
 
@@ -250,6 +251,8 @@
       </div>
       <div class="col-md-5 ">
         <img src="../images-news/heading-01.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="629" ></img>
+        <p class="text-center mt-2"><i>Ash Ketchum và Leon</i></p>  
+
       </div>
     </div>
     <hr class="featurette-divider">
@@ -266,15 +269,16 @@
         </p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="../images-news/heading-07.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1280" height="720" ></img>
-      </div>
+        <img src="../images-news/heading-07.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1280" height="720" ></img>    
+        <p class="text-center mt-2"><i>Ash và các Pokémon đang phân định thành bại với đương kim vô địch Leon</i></p>
+</div>
     </div>
  
     <!-- /END THE FEATURETTES -->
   </div>
     <div class="mt-5">
       <div>
-        <strong>Từ tận đáy lòng, rất rất rất cảm ơn bạn đã quan tâm và dõi theo loạt trang tin và blog về Pokémon của mình. Bạn có thể ủng hộ mình qua MoMo (thông tin phía dưới cùng của trang), chúc bạn một ngày tốt lành. Một lần nữa, mình là Hoàng Tùng, rất cảm ơn bạn đã ghé thăm nơi đây!</strong>
+        <strong>Hí, từ tận đáy lòng, rất rất rất cảm ơn bạn đã quan tâm và dõi theo loạt trang tin và blog về Pokémon của mình. Bạn có thể ủng hộ mình qua MoMo (thông tin phía dưới cùng của trang), chúc bạn một ngày tốt lành. Một lần nữa, mình là Hoàng Tùng, rất cảm ơn bạn đã ghé thăm nơi đây!</strong>
       </div>
       <div class="d-flex align-items-center justify-content-center mt-5">
         <div class="col-lg-4">

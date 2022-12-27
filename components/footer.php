@@ -1,3 +1,6 @@
+<script>
+
+</script>
 
 <style>
     /* FOOTING */
@@ -108,6 +111,7 @@
                 <ul>
                     <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank">Nguyen Tuan Hung</a></li>
                     <li>Instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
+                    <li>hh:mm:ss - dd/mm/yyyy (GMT+7)</li>
                 </ul>
             </li>
             <li>
