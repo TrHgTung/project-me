@@ -129,9 +129,9 @@
       <div class="d-flex align-items-center justify-content-center">
         <div class="col-lg-4">
           <img src="../../images/lucario.jpg"  class="bd-placeholder-img rounded-circle"  border-radius="50%" width="80" height="80" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
-          <h6 class="fw-normal mt-2"><strong>Tung is the author of this article</strong> </h6>
+          <h6 class="fw-normal mt-2"><strong>Hoàng Tùng là tác giả của bài viết này.</strong> </h6>
           <small>
-            <p class="mb-2">Last updated: Dec 28th, 2022</p>
+            <p class="mb-2">Lần cuối cập nhật bởi tác giả: 27-Dec-2022</p>
           </small>
           <p><a class="btn btn-secondary" href="../../about-me.php">View his profile &raquo;</a></p>
         </div>
@@ -186,6 +186,8 @@
       </div>
       <div class="col-md-5">
         <img src="../images-news/heading-03.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="750" height="1334" focusable="false"></img>
+        <p class="text-center mt-2"><i>The Pokémon Company lập tức ca ngợi Ash ngay sau chiến thắng đầy tiếng tăm</i></p>
+
       </div>
     </div>
 
@@ -193,17 +195,17 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <div class="featurette-heading fw-normal lh-1 mb-3">Hãy nói về đội hình đã giúp Ash đăng quang</div>
+        <div class="featurette-heading fw-normal lh-1 mb-3">Hãy nói về đội hình đã giúp Ash đăng quang..</div>
         <div>
           <p class="lead">Bằng tất cả nỗ lực, ý chí chiến đấu kiên cường, sức mạnh tình bạn đáng trân quý, lòng trung thành và phải kể từ những thất bại đắng cay, Dragonite, Gengar, Lucario, Sirfetch'd (Galarian), Dracovish và Pikachu 
-            đã cùng nhau đem đến một trận đấu mãn nhãn, vẽ nên một hình ảnh đầy sắc màu, một bức tranh của lòng tin đáng để khâm phục mà chính sức mạnh diệu kỳ này đã tác động đến thế giới thực. 
+            đã cùng nhau đem đến một trận đấu mãn nhãn, vẽ nên một hình ảnh đầy sắc màu, một bức tranh của lòng tin đáng để khâm phục mà chính sức mạnh diệu kỳ này đã tác động đến thế giới thực... 
           </p>
         </div>
       </div>
 
       <div class="col-md-5 order-md-1">
         <img src="../images-news/heading-02.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="629" ></img>
-        <p class="text-center mt-2"><i>edit here</i></p>
+        <p class="text-center mt-2"><i>Pikachu và đồng bọn (Lucario, Dracovish, Dragonite, G.Farfetch'd và Gengar)</i></p>
       </div>
     </div>
 
@@ -211,24 +213,25 @@
     <!--  -->
     <div class="row featurette">
       <div class="col-md-7 ">
-        <h2 class="featurette-heading fw-normal lh-1 mb-3">Người ta nghĩ gì.. </h2>
-        <p class="lead">Rất nhiều người đã kể và mong chờ về một chiến thắng trong trận chung kết trong mơ dành cho chàng thanh niên đến từ Pallet Town, nhưng rồi những thất bại từ cay đắng đến nhảm nhí đã chặn đứng ước mơ ấy, 
-            những thất bại ở chung kết vùng Kanto (2001), hay thất bại ở chung kết vùng Unova (2016) đã củng cố thêm ý chí quyết tâm của chàng trai này, để rồi chỉ ngay khi đến với vùng Alola đã đạt được danh hiệu vô địch trên chính vùng đất đầy cát và muối này. Và đỉnh cao nhất là chiến thắng vừa rồi, trước một đương kim vô địch thế giới, người được mệnh danh là kẻ bất bại, cũng phải ngả mũ thán phục trước một Ash Ketchum đầy táo bạo, nhiệt huyết và hoài bão.
-            Và câu chuyện tưởng chừng hư ảo này đã được người phàm ví von như một truyền thuyết cổ tích hiện đại, với bài học được gửi gắm rằng hãy không bao giờ từ bỏ ước mơ, luôn đón lấy thất bại để làm bàn đạp cho thành công vì thành công sẽ không gọi tên kẻ lười biếng, không chấp nhận sự thật và không dám đương đầu với thử thách.
+        <h2 class="featurette-heading fw-normal lh-1 mb-3">..Người ta nghĩ gì </h2>
+        <p class="lead">...Rất nhiều người đã kể và mong chờ về một chiến thắng trong trận chung kết trong mơ dành cho chàng thanh niên đến từ Pallet Town, nhưng rồi những thất bại từ cay đắng đến nhảm nhí đã chặn đứng ước mơ ấy, 
+            ta phải kể đến những thất bại ở chung kết vùng Kanto (2001), hay thất bại ở chung kết vùng Unova (2016) đã củng cố thêm ý chí quyết tâm của chàng trai này, để rồi chỉ ngay khi đến với vùng Alola, 
+            bằng vốn kinh nghiệm và sức mạnh ý chí, cậu bé 10 tuổi lập tức đạt được danh hiệu cao quý nhất trên chính vùng đất đầy cát và gió biển này. Và đỉnh cao nhất là chiến thắng vừa rồi, trước một đương kim vô địch thế giới, người được mệnh danh là kẻ bất bại, cũng phải ngả mũ thán phục trước một Ash Ketchum đầy táo bạo, nhiệt huyết và hoài bão.
+            Và câu chuyện tưởng chừng hư ảo này đã được người phàm ví von như một truyền thuyết cổ tích hiện đại, với bài học về sự kiên định được gửi gắm qua từng khung hình được truyền tải.
           </p>
       </div>
       <div class="col-md-5">
       <img src="../images-news/heading-06.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="900" height="557" ></img>
-      <p class="text-center mt-2"><i>Bảng điện tử tại ngã tư Shibuya - Nhật Bản đang trình chiếu chiến thắng của Ash Ketchum</i></p>
+      <p class="text-center mt-2"><i>Bảng điện tử tại ngã tư Shibuya - Nhật Bản đang trình chiếu chiến thắng của Ash Ketchum trước công chúng</i></p>
       </div>
     </div>
     <hr class="featurette-divider">
 <!--  -->
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1 mb-3">A minute flash-back with Ash </h2>
-        <div class="lead">Ash is a young man come from Kanto, with the dream that encounter all the Pokémon and be friend with all trainer all around the world.</div>
-        <p class="mt-3">Xem bài viết mà mình nói về Ash <a href="./news-02.php">ngay tại đây</a>.</p>
+        <h2 class="featurette-heading fw-normal lh-1 mb-3">Một phút nói về Ash</h2>
+        <div class="lead">Xuất thân từ thị trấn Pallet Town (Kanto), hay chúng ta biết đến với cái tên Mashara, quyết tâm lên đường chu du khắp các vùng miền, gói theo hoài bão muốn trở thành một nhà huấn luyện Pokémon tài năng nhất, được kết giao bằng hữu với tất cả mọi người mà Ash từng gặp.</div>
+        <p class="mt-3">Xem bài viết mà mình nói "rất rất nhiều" về Ash <a href="./news-02.php">ngay tại đây</a>.</p>
       </div>
       <div class="col-md-5 order-md-1">
       <img src="../images-news/heading-05.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="675" ></img>
@@ -238,20 +241,51 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <div class="featurette-heading fw-normal lh-1 mb-3">Battling style</div>
-        <p class="lead">Let me show you the way Ash controlled and conqueued the battle. We saw a young boy with
-          a crazy tactic, Ash and his Pokémon had been fighting together, had a same thinking, and it let only one goal, the winning for winner!
+      <div class="col-md-7 ">
+        <div class="featurette-heading fw-normal lh-1 mb-3">Phong cách chiến đấu</div>
+        <p class="lead">Như đã đề cập, chúng ta có thể nhìn thấy được tinh thần nhiệt huyết, một ý chí khát khao to lớn nằm sâu bên trong Ash, và chỉ khi được phân định thành bại với Leon, sức mạnh nội tại bên trong cậu bé 10 tuổi ngày nào được bộc phát và chuyển hóa thành sợi dây liên kết với các đồng hữu của mình.
+          chúng ta được chứng kiến một con Pikachu vẫn ngày nào lì lợm, chống trả lại Ash, mà giờ đây đã là một mắt xích, một quân bài át không thể thiếu của "Thánh Sa", cùng với Dragonite, Dracovish, Gengar, Farfetch'd hay Lucario, gây vang lên những nốt ca cho một bản giao hưởng, và bản ca ấy mang tên Chiến thắng.
           
         </p>
       </div>
-      <div class="col-md-5 order-md-1">
+      <div class="col-md-5 ">
         <img src="../images-news/heading-01.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="629" ></img>
       </div>
     </div>
     <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <div class="featurette-heading fw-normal lh-1 mb-3">Những phân cảnh được trau chuốt công phu</div>
+        <p class="lead">
+          Sẽ không muốn nói là quá tẻ nhạt khi đánh giá cho cả một series phim, nhưng trong suốt 3 năm qua, <i>Pokémon: The Ultimate Journey (Sword and Shield)</i> lại đem đến
+          vô số ấn tượng không đẹp cho người xem, những người đã kỳ vọng vào một series phải thật "hoành tá tràng" với nét vẽ như <i>Pokémon: Best Wishes I & II (Unova)</i> và cốt truyện phải lôi cuốn, mạch lạc như loạt điện ảnh của những thế hệ đầu tiên hay <i>Pokémon: Sun and Moon.</i>          
+        </p>
+        <p class="lead">
+            Tuy vậy, khi đến điểm cao trào của cả một cuộc hành trình, kỹ xảo đồ họa và phần kịch bản đã được cải thiện, đã thỏa lòng người xem về một trận đấu kịch tính và một cái kết đầy viên mãn.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="../images-news/heading-07.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1280" height="720" ></img>
+      </div>
+    </div>
+ 
     <!-- /END THE FEATURETTES -->
   </div>
+    <div class="mt-5">
+      <div>
+        <strong>Từ tận đáy lòng, rất rất rất cảm ơn bạn đã quan tâm và dõi theo loạt trang tin và blog về Pokémon của mình. Bạn có thể ủng hộ mình qua MoMo (thông tin phía dưới cùng của trang), chúc bạn một ngày tốt lành. Một lần nữa, mình là Hoàng Tùng, rất cảm ơn bạn đã ghé thăm nơi đây!</strong>
+      </div>
+      <div class="d-flex align-items-center justify-content-center mt-5">
+        <div class="col-lg-4">
+          <img src="../../images/lucario.jpg"  class="bd-placeholder-img rounded-circle"  border-radius="50%" width="80" height="80" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>  
+          <small>
+            <p class="mb-2 mt-2"><i>Hoàng Tùng</i></p>
+          </small>
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider">
 
 </main>
 
