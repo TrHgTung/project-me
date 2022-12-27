@@ -46,15 +46,14 @@
         function changeBg (){
           var nav01 = document.getElementById('nav01');
           var scrollValue = window.scrollY;
-          // console.log(scrollValue); //need to change on ~186 (= y = 186.**** px) && scrollValue < 559.2000122070312
-            if(scrollValue > 186 && scrollValue < 559){
+            console.log(scrollValue); //need to change on ~86 (= y = 86.**** px) && scrollValue < 530
+            if(scrollValue > 86 && scrollValue < 530){
               nav01.classList.remove("bg-dark");
             } else{
               nav01.classList.add("bg-dark");
             }
           }
           window.addEventListener('scroll', changeBg);
-        
     </script>
 
   </head>
@@ -95,7 +94,7 @@
       <img src="../images-news/heading-04.jpg" alt="" width="100%" height="100%" class="heading-01" aria-hidden="true" focusable="false">  
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Sau 25 năm, "Thánh Sa" Ash Ketchum Lần Đầu Trở Thành Tân Vương Thế Giới.</h1>
+            <h1><strong>Sau 25 năm, "Thánh Sa" Ash Ketchum Lần Đầu Trở Thành Tân Vương Thế Giới.</strong></h1>
             <div class="mt-5">
               <p>Sau một phần tư của thế kỷ đi chu du qua khắp các vùng miền, Ash Ketchum cuối cùng cũng đạt
                 được thành tựu mà biết bao fan hâm mộ dòng series phim hoạt hình Pokémon đã trông ngóng suốt bấy lâu nay - 
@@ -159,16 +158,19 @@
     <div>
       <div class="text mt-5">
         Qua tập phim này, cho chúng ta thấy được sức cuốn hút của khán giả đối với loạt phim hoạt hình này nói riêng và 
-        cả tượng đài Pokémon đã in sâu trong tâm trí những con người khi được nhắc đến những "Pikachu", "ếch kỳ diệu" hay "rùa kini" kể từ những năm cuối của thiên niên kỷ trước nói chung
+        cả tượng đài Pokémon đã in sâu trong tâm trí những con người khi được nhắc đến những "Pikachu", "ếch kỳ diệu" hay "rùa kini" kể từ những năm cuối của thiên niên kỷ trước nói chung.
       </div>
     </div>
     <div>
       <div class="text mt-5">
-      Ash's victory comes just a week before the launch of the latest mainline Pokemon games, 
-      Pokemon Scarlet and Violet. The pair arrive for Nintendo Switch on Nov. 18 and take players to a 
-      brand-new open-world region called Paldea, which is home to a variety of new Pokemon. 
-      Everyone who purchases one of the games before 
-      Feb. 28 will be able to receive a special bonus Pikachu.
+      Tuy nhiên, rất có thể đây sẽ là một trong những tập phim cuối cùng mà chúng ta có thể gặp được nhà huấn luyện Pokémon trẻ tuổi này.
+      Vì đã có thông tin cho rằng trong tương lai, nhân vật chính của phần phim về vùng đất Paldea (thế hệ thứ 9) đã được thay thế bởi hai nhân vật <i>Liko</i> và <i>Roy</i>, đồng thời cũng sẽ là một Pokémon khởi đầu khác của vùng đất này tiếp bước trở thành một "Pikachu thứ hai" mạnh mẽ, thân thiện và đầy lòng trung thành.
+      </div>
+    </div>
+    <div>
+      <div class="text mt-5">
+        Ash và Pikachu sẽ tiếp tục đồng hành với khán giả đến hồi kết của <i>Pokémon Ultimate Journey</i> và những fan hâm mộ sẽ được chứng kiến sự tái diễn toàn bộ hơn 25 năm hành trình của cậu bé quán quân này qua 11 tập phim được công chiếu lần lượt vào đầu năm 2023.
+        Trước khi khép lại để nhường vai cho hai hình tượng mới là cô bé <i>Liko</i> và cậu nhóc <i>Roy</i> với bao hứa hẹn sẽ xây dựng nên một kỷ nguyên Pokémon anime đầy thành công như lần đầu 1997 - 2022. 
       </div>
     </div>
 
@@ -176,11 +178,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <div class="featurette-heading fw-normal lh-1 mb-3">TPC has tweeted about the victory of Ash</div>
-        <p class="lead"><i>"He's done it! Ash has become a World Champion!</i> (icon)(icon)".
-         That's what TPC (The Pokémon Company) talk about our little young man, 
-        a 10 year-old trainer with 25 years experience in training and battling Pokémon.</p>&nbsp;
-        <p class="lead">You can watch it <a href="https://twitter.com/Pokemon/status/1591015158016446464/" target="_blank">here</a></p>
+        <h4 class="featurette-heading fw-normal lh-1 mb-3"><i>The Pokémon Company</i> đã đăng một dòng tweet thông báo về chiến thắng của Ash</h4>
+        <p class="lead"><i>"He's done it! Ash has become a World Champion!</i>".
+         Đó là những gì mà The Pokémon Company đã viết lên dòng thời gian trên trang Tweeter của mình,
+        ca ngợi về một cậu bé 10 tuổi với 25 năm kinh nghiệm và tất cả những nỗ lực, khát khao để đăng quang Vô địch Thế giới.</p>&nbsp;
+        <p class="">Bạn có thể xem lại <a href="https://twitter.com/Pokemon/status/1591015158016446464/" target="_blank">bài viết này.</a></p>
       </div>
       <div class="col-md-5">
         <img src="../images-news/heading-03.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="750" height="1334" focusable="false"></img>
@@ -191,24 +193,44 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <div class="featurette-heading fw-normal lh-1 mb-3">Talk about the line-up</div>
-        <p class="lead">With all the effort, loyalty and hard-training, Dragonite, Gengar, Lucario, Sirfetch'd (Galarian), Dracovish and Pikachu have
-          brought the most sastified, colorful and emotional battle for every single fan who loves Pokémon, and has been waited for the moment that Ash take the world master trainer achievement
-        </p>
+        <div class="featurette-heading fw-normal lh-1 mb-3">Hãy nói về đội hình đã giúp Ash đăng quang</div>
+        <div>
+          <p class="lead">Bằng tất cả nỗ lực, ý chí chiến đấu kiên cường, sức mạnh tình bạn đáng trân quý, lòng trung thành và phải kể từ những thất bại đắng cay, Dragonite, Gengar, Lucario, Sirfetch'd (Galarian), Dracovish và Pikachu 
+            đã cùng nhau đem đến một trận đấu mãn nhãn, vẽ nên một hình ảnh đầy sắc màu, một bức tranh của lòng tin đáng để khâm phục mà chính sức mạnh diệu kỳ này đã tác động đến thế giới thực. 
+          </p>
+        </div>
       </div>
+
       <div class="col-md-5 order-md-1">
         <img src="../images-news/heading-02.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="629" ></img>
+        <p class="text-center mt-2"><i>edit here</i></p>
       </div>
     </div>
 
     <hr class="featurette-divider">
-
+    <!--  -->
     <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1 mb-3">A minute flash-back with Ash </h2>
-        <div class="lead">Ash is a young man come from Kanto, with the dream that encounter all the Pokémon and be friend with all trainer all around the world.</div>
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading fw-normal lh-1 mb-3">Người ta nghĩ gì.. </h2>
+        <p class="lead">Rất nhiều người đã kể và mong chờ về một chiến thắng trong trận chung kết trong mơ dành cho chàng thanh niên đến từ Pallet Town, nhưng rồi những thất bại từ cay đắng đến nhảm nhí đã chặn đứng ước mơ ấy, 
+            những thất bại ở chung kết vùng Kanto (2001), hay thất bại ở chung kết vùng Unova (2016) đã củng cố thêm ý chí quyết tâm của chàng trai này, để rồi chỉ ngay khi đến với vùng Alola đã đạt được danh hiệu vô địch trên chính vùng đất đầy cát và muối này. Và đỉnh cao nhất là chiến thắng vừa rồi, trước một đương kim vô địch thế giới, người được mệnh danh là kẻ bất bại, cũng phải ngả mũ thán phục trước một Ash Ketchum đầy táo bạo, nhiệt huyết và hoài bão.
+            Và câu chuyện tưởng chừng hư ảo này đã được người phàm ví von như một truyền thuyết cổ tích hiện đại, với bài học được gửi gắm rằng hãy không bao giờ từ bỏ ước mơ, luôn đón lấy thất bại để làm bàn đạp cho thành công vì thành công sẽ không gọi tên kẻ lười biếng, không chấp nhận sự thật và không dám đương đầu với thử thách.
+          </p>
       </div>
       <div class="col-md-5">
+      <img src="../images-news/heading-06.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="900" height="557" ></img>
+      <p class="text-center mt-2"><i>Bảng điện tử tại ngã tư Shibuya - Nhật Bản đang trình chiếu chiến thắng của Ash Ketchum</i></p>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+<!--  -->
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1 mb-3">A minute flash-back with Ash </h2>
+        <div class="lead">Ash is a young man come from Kanto, with the dream that encounter all the Pokémon and be friend with all trainer all around the world.</div>
+        <p class="mt-3">Xem bài viết mà mình nói về Ash <a href="./news-02.php">ngay tại đây</a>.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
       <img src="../images-news/heading-05.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1200" height="675" ></img>
       </div>
     </div>
