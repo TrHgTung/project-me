@@ -1,4 +1,6 @@
-
+<?php
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,7 +48,7 @@
         function changeBg (){
           var nav01 = document.getElementById('nav01');
           var scrollValue = window.scrollY;
-            console.log(scrollValue); //need to change on ~86 (= y = 86.**** px) && scrollValue < 530
+            // console.log(scrollValue); //need to change on ~86 (= y = 86.**** px) && scrollValue < 530
             if(scrollValue > 86 && scrollValue < 530){
               nav01.classList.remove("bg-dark");
             } else{
@@ -75,10 +77,36 @@
           </li>
           
         </ul>
-        <form class="d-flex" action="../../login.php">
-          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-          <button class="btn btn-light">Login</button>
-        </form>
+        <?php
+        // hi, Tung's moved this function to ../check-login.php; if sth's not true, recover these under lines and undirect to check-login.php
+
+        //   include("../../connection.php");
+        //   function check_login($con){ // this func will check login user's session, if true ? login btn : no login btn
+        //     if( isset($_SESSION['user_id']) ){
+        //         $id = $_SESSION['user_id'];
+        //         $query = "select * from users where user_id = '$id' limit 1";      
+        //         $result = mysqli_query($con,$query);
+    
+        //         if($result && mysqli_num_rows($result) > 0){
+        //             $user_data = mysqli_fetch_assoc($result);
+        //             return $user_data;
+        //         }
+        //     } 
+        //     // header("Location: ../../login.php"); // rm this shit
+        //     // die; // and rm this also
+        // }
+
+        //   session_start();
+
+        //   $user_data = check_login($con);
+
+        //   if(!isset($_SESSION['user_id'])){
+        //     echo '<form class="d-flex" action="../../login.php">
+        //       <button class="btn btn-light">Login</button>
+        //     </form>';
+        //   }
+        include "../check-login.php";
+        ?>
       </div>
     </div>
   </nav>
@@ -131,9 +159,9 @@
           <img src="../../images/lucario.jpg"  class="bd-placeholder-img rounded-circle"  border-radius="50%" width="80" height="80" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
           <h6 class="fw-normal mt-2"><strong>Hoàng Tùng là tác giả của bài viết này.</strong> </h6>
           <small>
-            <p class="mb-2">Lần cuối cập nhật bởi tác giả: 27-Dec-2022</p>
+            <p class="mb-2">Lần cuối cập nhật: 28-Dec-2022</p>
           </small>
-          <p><a class="btn btn-secondary" href="../../about-me.php">View his profile &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="../../about-me.php">Tùng là ai &raquo;</a></p>
         </div>
       </div>
     </div><!-- /.row -->

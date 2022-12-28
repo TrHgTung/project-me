@@ -30,8 +30,11 @@
         </div>
        <div>
             <ul>
-                <li class="nav-item"><a class="active" href="user.php">Tìm</a></li>
-                <li class="nav-item"><a href="login.php">Đăng nhập</a></li>
+                <li class="nav-item"><a class="active" href="user.php">PokéDex</a></li>
+                <li class="nav-item"><?php 
+                                        include "./check-user-session/check-auth.php";
+                                    ?>
+                </li>
                 <li class="nav-item"><a href="about-me.php">Tác giả</a></li>
             </ul>
        </div>
@@ -50,7 +53,7 @@
                 <p class="fs-1 text text-white">Welcome</p>
             </div>
             <div>
-                <a href="login.php" class="btn btn-warning button rounded-pill" role="button" >to the Pokémon world</a>
+                <a href="./news/navigator.php" class="btn btn-warning button rounded-pill" role="button" >to the Pokémon world</a>
             </div>  
         </div>
     </section>
