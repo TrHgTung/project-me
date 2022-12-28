@@ -50,54 +50,75 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css?v=<?php echo time(); ?>"> 
-    <link rel="stylesheet" href="./css/validate.css?v=<?php echo time(); ?>"> 
+    <link rel="stylesheet" href="css/loginStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/0591fa8989.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/login-style/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap" rel="stylesheet">
     <title>ĐĂNG NHẬP</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Đăng nhập</a>
+        <a href="./" class="logo">TRANG CHỦ</a>
         <ul>
             <li><a href="pages/explorer.php" class="active">Bỏ qua Đăng nhập</a></li>
             
         </ul>
     </header>
+           
     <section>
-        <img src="images/login-style/stars.png" alt="" id="stars">
-        <img src="images/login-style/moon.png" alt="" id="moon">
-        <img src="images/login-style/mountains_behind.png" alt="" id="mountains_behind">
-        
-        <!-- a href="login.php" id="btn">to the Pokémon world</!-->
-        <img src="images/login-style/mountains_front.png" alt="" id="mountains_front">
-    
-        <img src="images/login-style/little-pkm.png" alt="" id="little-pkm">
-        <img src="images/login-style/little-starters-pkm.png" alt="" id="little-starters-pkm">
+        <div class="container-images-bg">
+            <img src="./images/stars.png" alt="" id="stars">
+            <img src="images/moon.png" alt="" id="moon">
+            <img src="images/mountains_behind.png" alt="" id="mountains_behind">
+                    
+            <img src="images/mountains_front.png" alt="" id="mountains_front">
+                
+            <img src="images/little-pkm.png" alt="" id="little-pkm">
+            <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm">
+        </div>
+                <div class="container-all-contents mt-5 g-3 row">
+                    <form action="" method="POST">
+                            <div class="text-center mb-5 text-white">
+                                <h2><strong>Đăng nhập</strong></h2>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="mb-4 col-md-6">
+                                    <input type="text" class="form-control" aria-describedby="passwordHelpInline" id="inputPassword6" name="user_name" placeholder="Tên Đăng nhập" required>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="mb-5 col-md-6">
+                                    <input type="password" class="form-control" name="password"  placeholder="Mật khẩu" required>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center mb-5">
+                                <input type="submit" value="Xác thực đăng nhập" id="btn" class="btn btn-primary btn-lg">
+                            </div>
+                            <div class="bg-dark w-100 h-50 bg-opacity-25 p-5">
+                                <div class="mt-3 text-white">
+                                    <div class="mt-3 ms-5 text-white">
+                                        <p>Không có tài khoản? Hãy <button type="button" class="btn btn-secondary btn-sm">đăng ký</button>
+                                    </div>
+                                </div>
+                                <div class="mb-3 text-white ">
+                                    <div class="ms-5 text-white">
+                                        <p><u>Tuy nhiên:</u>&nbsp;&nbsp;Bạn vẫn có thể <a href="#" class="link-light">duyệt với vai trò là khách</a> mà không cần đăng nhập/đăng ký.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
         
 <!--- downer here --->
-        <center>
-            <form action="" method="POST">
-                <input type="text" name="user_name" id="user_name" placeholder="Tên Đăng nhập" size=35 required><br><br>
-                <input type="password" name="password" id="password"  placeholder="Mật khẩu" size=35 required><br><br>
-
-                <input type="submit" value="Đăng nhập" id="btn">
-
-                <p>  Không có tài khoản? Hãy <a href="signup.php">đăng ký</a>
-</p>  <br><br>
         
-                
-            </form>
-            <div>
-                <p><u>Gợi ý:  </u>Bạn có thể <a href="#">duyệt với vai trò là khách</a> mà không cần đăng nhập/đăng ký.</p>
-            </div>
-            
-        </center>
+           
     
     </section>
     <footer class="footer">
@@ -107,4 +128,3 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     </footer>
 </body>
 </html> 
-

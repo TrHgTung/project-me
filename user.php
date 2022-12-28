@@ -26,7 +26,7 @@
         <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" class="logo">pokémon</a>
         <ul>
             <li><a href="./" class="active">Trang Chủ</a></li>
-            <li><a href="./news/navigator.php" >Xem Blog</a></li>
+            <li><a href="./news/navigator.php" >Câu Chuyện</a></li>
             <li><a href="logout.php">Đăng Xuất</a></li>    
         </ul>
     </header>
