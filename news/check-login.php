@@ -22,6 +22,11 @@
 
           if(!isset($_SESSION['user_id'])){
             echo '<form class="d-flex" action="../../login.php">
-              <button class="btn btn-light">Login</button>
+              <button class="btn btn-light">Đăng nhập</button>
+            </form>';
+          }
+          else{
+            echo '<form class="d-flex" action="../../logout.php">
+              <button class="btn btn-light">Đăng xuất</button>
             </form>';
           }
