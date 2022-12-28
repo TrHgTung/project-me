@@ -26,11 +26,7 @@
         <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" class="logo">pokémon</a>
         <ul>
             <li><a href="user.php" class="active">Trang chủ</a></li>
-            <li><a href="logout.php">Đăng xuất</a></li>
-            <li><a href="#">
-                <?php //echo $user_data['user_name']; ?>
-            </a></li>
-            
+            <li><a href="logout.php">Đăng xuất</a></li>      
         </ul>
     </header>
     <section>

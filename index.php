@@ -30,7 +30,7 @@
         </div>
        <div>
             <ul>
-                <li class="nav-item"><a class="active" href="user.php">Tìm</a></li>
+                <li class="nav-item"><a class="active" href="user.php">PokéDex</a></li>
                 <li class="nav-item"><?php 
                                         include "./check-user-session/check-auth.php";
                                     ?>

@@ -24,5 +24,5 @@
             echo '<a href="./login.php">Đăng nhập</a>';
           }
           else{
-            echo '<a href="./user.php">PokéDex</a>';
+            echo '<a href="./logout.php">Đăng xuất</a>';
           }
