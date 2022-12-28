@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <style>
     /* FOOTING */
     footer {
@@ -95,8 +91,53 @@
 
 </style>
 
-<footer class="footer">
+<footer class="footer" onload="initClock()">
 <link rel="stylesheet" type="text/css" href="../css/style.css" >
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <div class="mt-5 text-center">
+        <span class="fs-20">
+            <strong>Hiện tại đang là:</strong>
+        </span>
+    </div>
+    <div class="datetime text-center mt-3" id="time">
+        <script>
+            function refreshTime() {
+                const timeDisplay = document.getElementById("time");
+                const dateString = new Date().toLocaleString();
+                const formattedString = dateString.replace(", ", " - ");
+                timeDisplay.textContent = formattedString;
+            }
+            setInterval(refreshTime, 1000);
+            // var datetime = new Date().getDate();
+            // console.log(datetime); // it will represent date in the console of developers tool
+            // document.getElementById("time").textContent = datetime; //it will print on html page
+            // var datetime = new Date().getDay();
+            // console.log(datetime); // it will represent date in the console of developers tool
+            // document.getElementById("time").textContent = datetime; //it will print on html page
+            // var datetime = new Date().getFullYear();
+            // console.log(datetime); // it will represent date in the console of developers tool
+            // document.getElementById("time").textContent = datetime; //it will print on html page
+            // var datetime = new Date().getHours()+1;
+            // console.log(datetime); // it will represent date in the console of developers tool
+            // document.getElementById("time").textContent = datetime; // represent on webbrowser
+            // var datetime = new Date().getMilliseconds();
+            // console.log(datetime); // it will represent date in the console of developers tool
+            // document.getElementById("time").textContent = datetime; // represent on html page
+            // var datetime = new Date().getMonth() + 1;
+            // console.log(datetime); // it will represent date in the console of  developers tool
+            // document.getElementById("time").textContent = datetime; // represent on html page
+
+            // if sth not working, recover these shit lines (nếu time footer bị lỗi, tắt comment cái đống lòn ở trên)
+            var datetime = new Date().toDateString();
+            console.log(datetime); // it will represent date in the console of developer tool
+            document.getElementById("time").textContent = datetime; // represent on html page
+
+            var datetime = new Date().toLocaleTimeString();
+            console.log(datetime); // it will represent date in the console of developers tool
+            document.getElementById("time").textContent = datetime; // represent on html page
+        </script>
+    </div>
+
         <div class="grid footer__container">
         <div class="grid footer__container">
         <ul>
@@ -108,22 +149,21 @@
             </li>
             <li>
                 <h3>Contact Me: </h3>
-                <ul>
+                <ul class="foot-item-box">
                     <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank">Nguyen Tuan Hung</a></li>
                     <li>Instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
-                    <li>hh:mm:ss - dd/mm/yyyy (GMT+7)</li>
                 </ul>
             </li>
             <li>
                 <h3>Detail:</h3>
-                <ul>
+                <ul class="foot-item-box">
                     <li>Phone no.: <b>090******0</b></li>
                     <li>Email: <a href="mailto:tungng14@gmail.com"><b>tungng14@gmail.com</b></a></li>    
                 </ul>
             </li>
             <li>
                 <h3>Donate UwU:</h3>
-                <ul>
+                <ul class="foot-item-box">
                     <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Buy Me A Coffee!</a></li> 
                     <li><a href="https://trhgtung.github.io/git-page/" target="_blank">MoMo! (test)</a></li>
                 </ul>
