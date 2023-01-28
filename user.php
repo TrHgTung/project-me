@@ -6,6 +6,7 @@
     include("functions.php");
 
     $user_data = check_login($con); // re-enable this line to activate check session for user !!
+    // $username = mysqli_query($con,"select user_name from users");
 
 ?>
 
@@ -27,7 +28,8 @@
         <ul>
             <li><a href="./" class="active">Trang Chủ</a></li>
             <li><a href="./news/navigator.php" >Câu Chuyện</a></li>
-            <li><a href="logout.php">Đăng Xuất</a></li>    
+            <li><a href="logout.php">Đăng Xuất</a></li>
+            <!-- <li><a href="#" >Xin chào, <?php echo $username; ?></a></li>  -->
         </ul>
     </header>
     <section>
