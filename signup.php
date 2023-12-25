@@ -46,7 +46,7 @@ session_start();
    <body>
 
     <header>
-        <a href="#" class="logo">Đăng nhập</a>
+        <a href="#" class="logo">Đăng ký</a>
         <ul>
             <li><a href="login.php" class="active">Quay về Đăng nhập</a></li>
             
@@ -66,19 +66,19 @@ session_start();
 <!--- downer here --->
         <center>
         
-            <form action="" method="POST">
+            <form action="signup.php" method="POST">
                 <p>Tên đăng nhập:</p><input type="text" name="user_name" id="user_name" size=35 placeholder= " VD: ash_ketchum123" required><br><br>
-                <p>Mật khẩu:</p> <input type="password" name="password" id="password" size=35 placeholder=" VD: AnhTungDzVjpPr02002" required><br><br><br>
+                <p>Mật khẩu:</p> <input type="password" name="password" id="password" size=35 placeholder=" VD: Test@123" required><br><br><br>
                 <p>Ngày sinh:</p>  <input type="date" value="Ngày sinh" id="datetime-picker" required><br><br>
 
-                <p id="purpose">Bằng cách nhấn Đăng ký, bạn đã chấp thuận với tất cả các Điều khoản của trang web, các dữ liệu cá nhân này sẽ luôn được lưu trữ với duy nhất <a href="#" id="url-none">một mục đích nghiên cứu phi lợi nhuận</a>.</p>
+                <p id="purpose">Bằng cách nhấn Đăng ký, các dữ liệu của bạn như tên đăng nhập và mật khẩu sẽ được lưu vào hệ thống, các dữ liệu cá nhân này sẽ luôn được lưu trữ với duy nhất một mục đích nghiên cứu khoa học phi lợi nhuận.</p>
 
-                <input type="submit" value="Đăng ký" id="btn">
+                <button type="submit" class="btn btn-primary active">Đăng ký tài khoản</button>
                 
             </form>
-            <div>
-                <p>Bạn đã có tài khoản? Vậy thì <a href="#">chỉ cần đăng nhập</a>.</p>
-            </div>
+            <!-- <div>
+                <p>Bạn đã có tài khoản? Vậy thì <a href="login.php">chỉ cần đăng nhập</a>.</p>
+            </div> -->
     
             
         </center>

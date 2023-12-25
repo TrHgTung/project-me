@@ -103,14 +103,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                             <div class="bg-dark w-100 h-50 bg-opacity-25 p-5">
                                 <div class="mt-3 text-white">
                                     <div class="mt-3 ms-5 text-white">
-                                        <p>Không có tài khoản? Hãy <button type="button" class="btn btn-secondary btn-sm">đăng ký</button>
+                                        <p>Không có tài khoản? Hãy <a href="signup.php" class="btn btn-secondary btn-sm">đăng ký</a>
                                     </div>
                                 </div>
-                                <div class="mb-3 text-white ">
+                                <!-- <div class="mb-3 text-white ">
                                     <div class="ms-5 text-white">
                                         <p><u>Tuy nhiên:</u>&nbsp;&nbsp;Bạn vẫn có thể <a href="#" class="link-light">duyệt với vai trò là khách</a> mà không cần đăng nhập/đăng ký.</p>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </form>
