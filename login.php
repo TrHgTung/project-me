@@ -65,7 +65,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     <header>
         <a href="./" class="logo">TRANG CHỦ</a>
         <ul>
-            <li><a href="pages/explorer.php" class="active">Bỏ qua Đăng nhập</a></li>
+            <li><a href="news/navigator.php" class="active">Bỏ qua Đăng nhập</a></li>
             
         </ul>
     </header>

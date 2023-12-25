@@ -12,9 +12,9 @@ session_start();
         if(!empty($user_name) && !empty($password) && !is_numeric($user_name)){
             //
             $user_id = random_num(20);
-            $query = "insert into users (user_id,user_name,password) values ('$user_id','$user_name','$password')";
+            $query_new = "insert into users (user_id,user_name,password) values ('$user_id','$user_name','$password')";
 
-            mysqli_query($con, $query);
+            mysqli_query($con, $query_new);
 
             header("Location: login.php");
             die;
