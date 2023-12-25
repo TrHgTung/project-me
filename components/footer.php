@@ -131,15 +131,15 @@
             <li>
                 <h3>Contact Me: </h3>
                 <ul class="foot-item-box">
-                    <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank">Nguyen Tuan Hung</a></li>
-                    <li>Instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
+                    <li>Facebook: <a href="#" target="_blank">Admin</a></li>
+                    <li>Instagram: <a href="#" target="_blank">Admin</a></li>
                 </ul>
             </li>
             <li>
                 <h3>Detail:</h3>
                 <ul class="foot-item-box">
                     <li>Phone no.: <b>090******0</b></li>
-                    <li>Email: <a href="mailto:tungng14@gmail.com"><b>tungng14@gmail.com</b></a></li>    
+                    <li>Email: <a href="#"><b>*****@gmail.com</b></a></li>    
                 </ul>
             </li>
             <li>

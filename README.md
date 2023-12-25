@@ -1,5 +1,3 @@
-# project-me
+## Pokemon Project 2022 - 2023
 
-DONT RM THIS: db name: projectMe > import with file 'project-connection-backup.sql'
-
-Hi, this is my personal project, about webpage
+All rights reserved of the original content. Pokémon and all other names are the property of The Pokémon Company, Creatures Inc., Game Freak and Nintendo © 1996-2023

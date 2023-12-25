@@ -87,13 +87,13 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                                 <h2><strong>Đăng nhập</strong></h2>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <div class="mb-4 col-md-6">
-                                    <input type="text" class="form-control" aria-describedby="passwordHelpInline" id="inputPassword6" name="user_name" placeholder="Tên Đăng nhập" required>
+                                <div class="mb-4 col-md-11">
+                                    <input type="text" class="form-control" aria-describedby="passwordHelpInline" id="inputPassword6" name="user_name" placeholder="Tên Đăng nhập (VD: ash_ketchum123)" required>
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <div class="mb-5 col-md-6">
-                                    <input type="password" class="form-control" name="password"  placeholder="Mật khẩu" required>
+                                <div class="mb-5 col-md-11">
+                                    <input type="password" class="form-control" name="password"  placeholder="Mật khẩu (VD: Test@123)" required>
                                 </div>
                             </div>
                             

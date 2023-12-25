@@ -23,7 +23,7 @@
 <body>
     <!-- FOR LOGGED IN USERS // LOGGED IN SESSION -->
     <header>
-        <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" class="logo">pokémon</a>
+        <a href="index.php" class="logo">pokémon</a>
         <ul>
             <li><a href="./" class="active">Trang Chủ</a></li>
             <li><a href="./news/navigator.php" >Câu Chuyện</a></li>

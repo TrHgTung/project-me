@@ -100,7 +100,7 @@
             <div class="mt-5">
               <p>Sau một phần tư của thế kỷ đi chu du qua khắp các vùng miền, Ash Ketchum cuối cùng cũng đạt
                 được thành tựu mà biết bao fan hâm mộ dòng series phim hoạt hình Pokémon đã trông ngóng suốt bấy lâu nay - 
-                Chức quán quân Vô địch Thế giới Pokémon. &nbsp;&nbsp;&nbsp;</p><small><b>Dịch bởi:</b> <i>Hoàng Tùng</i> -- <b>Tham khảo:</b> <a href="https://www.cnet.com/tech/gaming/after-25-years-ash-ketchum-finally-becomes-pokemon-world-champion/" target="_blank">CNet News</a></small>
+                Chức quán quân Vô địch Thế giới Pokémon. &nbsp;&nbsp;&nbsp;</p><small><b>Dịch bởi:</b> <i>Admin</i> -- <b>Tham khảo:</b> <a href="https://www.cnet.com/tech/gaming/after-25-years-ash-ketchum-finally-becomes-pokemon-world-champion/" target="_blank">CNet News</a></small>
             </div>
             <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>  -->
           </div>
@@ -131,11 +131,11 @@
       <div class="d-flex align-items-center justify-content-center">
         <div class="col-lg-4">
           <img src="../../images/lucario.jpg"  class="bd-placeholder-img rounded-circle"  border-radius="50%" width="80" height="80" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
-          <h6 class="fw-normal mt-2"><strong>Hoàng Tùng là tác giả của bài viết này.</strong> </h6>
+          <h6 class="fw-normal mt-2"><strong>Admin là tác giả của bài viết này.</strong> </h6>
           <small>
             <p class="mb-2">Lần cuối cập nhật: 28-Dec-2022</p>
           </small>
-          <p><a class="btn btn-secondary" href="../../about-me.php">Tùng là ai &raquo;</a></p>
+          <!-- <p><a class="btn btn-secondary" href="#">Tôi là ai &raquo;</a></p> -->
         </div>
       </div>
     </div><!-- /.row -->
@@ -280,13 +280,13 @@
   </div>
     <div class="mt-5">
       <div>
-        <strong>Hí, từ tận đáy lòng, rất rất rất cảm ơn bạn đã quan tâm và dõi theo loạt trang tin và blog về Pokémon của mình. Bạn có thể ủng hộ mình qua MoMo (thông tin phía dưới cùng của trang), chúc bạn một ngày tốt lành. Một lần nữa, mình là Hoàng Tùng, rất cảm ơn bạn đã ghé thăm nơi đây!</strong>
+        <strong>Hí, từ tận đáy lòng, rất rất rất cảm ơn bạn đã quan tâm và dõi theo loạt trang tin và blog về Pokémon của mình. Bạn có thể ủng hộ mình qua MoMo (thông tin phía dưới cùng của trang), chúc bạn một ngày tốt lành. Một lần nữa, mình là Admin, rất cảm ơn bạn đã ghé thăm nơi đây!</strong>
       </div>
       <div class="d-flex align-items-center justify-content-center mt-5">
         <div class="col-lg-4">
           <img src="../../images/lucario.jpg"  class="bd-placeholder-img rounded-circle"  border-radius="50%" width="80" height="80" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>  
           <small>
-            <p class="mb-2 mt-2"><i>Hoàng Tùng</i></p>
+            <p class="mb-2 mt-2"><i>Admin</i></p>
           </small>
         </div>
       </div>

@@ -25,7 +25,7 @@
     <header>
         <div class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="logo navbar-brand" href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" >pokémon</a>
+                <a class="logo navbar-brand" href="index.php" >pokémon</a>
             </div>   
         </div>
        <div>

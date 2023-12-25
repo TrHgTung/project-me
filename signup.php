@@ -67,14 +67,11 @@ session_start();
         <center>
         
             <form action="signup.php" method="POST">
-                <p>Tên đăng nhập:</p><input type="text" name="user_name" id="user_name" size=35 placeholder= " VD: ash_ketchum123" required><br><br>
-                <p>Mật khẩu:</p> <input type="password" name="password" id="password" size=35 placeholder=" VD: Test@123" required><br><br><br>
+                <p>Tên đăng nhập:</p><input type="text" name="user_name" id="user_name" size=35 placeholder= " username" required><br><br>
+                <p>Mật khẩu:</p> <input type="password" name="password" id="password" size=35 placeholder=" password" required><br><br><br>
                 <p>Ngày sinh:</p>  <input type="date" value="Ngày sinh" id="datetime-picker" required><br><br>
-
-                <p id="purpose">Bằng cách nhấn Đăng ký, các dữ liệu của bạn như tên đăng nhập và mật khẩu sẽ được lưu vào hệ thống, các dữ liệu cá nhân này sẽ luôn được lưu trữ với duy nhất một mục đích nghiên cứu khoa học phi lợi nhuận.</p>
-
                 <button type="submit" class="btn btn-primary active">Đăng ký tài khoản</button>
-                
+                <p id="purpose">Bằng cách nhấn Đăng ký, các dữ liệu của bạn như tên đăng nhập và mật khẩu sẽ được lưu vào hệ thống, các dữ liệu cá nhân này sẽ luôn được lưu trữ với duy nhất một mục đích nghiên cứu khoa học phi lợi nhuận.</p>   
             </form>
             <!-- <div>
                 <p>Bạn đã có tài khoản? Vậy thì <a href="login.php">chỉ cần đăng nhập</a>.</p>
@@ -102,14 +99,14 @@ session_start();
             <li>
                 <h3>Contact Me: </h3>
                 <ul>
-                    <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank">Nguyen Tuan Hung</a></li>
-                    <li>instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
+                    <li>Facebook: <a href="#" target="_blank">Admin</a></li>
+                    <li>instagram: <a href="#" target="_blank">Admin</a></li>
                 </ul>
             </li>
             <li>
                 <h3>Detail:</h3>
                 <ul>
-                    <li>SĐT của bố mày: <b>090******0</b></li>
+                    <li>SĐT: <b>090******0</b></li>
                    
                     
                 </ul>
