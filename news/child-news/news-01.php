@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pokemon won the final battle in World Championship">
-    <meta name="author" content="Hoang Tung">
+    <meta name="author" content="Admin">
     <meta name="generator" content="">
     <link rel="icon" type="image/x-icon" href="../../images/favicon.png">
     <title>11-11-2022 - Ash Ketchum chính thức trở thành quán quân thế giới</title>

@@ -44,7 +44,7 @@
                 <ul class="foot-item-box">
                     <li>Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996 </li>
                     <li>The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 913 Pokémon species (2019).</li>
-                    <li>Email: <a href="mailto:tungng14@gmail.com"><b>tungng14@gmail.com</b></a></li>
+                    <li>Email: <a href="#"><b>********@gmail.com</b></a></li>
                     <!-- 
                      and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, 
                      catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. 
@@ -55,14 +55,14 @@
             <li>
                 <h3>Contact Me: </h3>
                 <ul>
-                    <li>Facebook: <a href="https://www.facebook.com/nguyentuanhung12345" target="_blank">Nguyen Tuan Hung</a></li>
-                    <li>instagram: <a href="https://www.instagram.com/hoangtung_2710" target="_blank">Hoang Tung</a></li>
+                    <li>Facebook: <a href="#" target="_blank">Not Available</a></li>
+                    <li>instagram: <a href="#" target="_blank">Not Available</a></li>
                 </ul>
             </li>
             <li>
                 <h3>Detail:</h3>
                 <ul>
-                    <li>SĐT của bố mày: <b>090******0</b></li>
+                    <li>SĐT: <b>090******0</b></li>
                    
                     
                 </ul>

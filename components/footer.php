@@ -146,7 +146,7 @@
                 <h3>Donate UwU:</h3>
                 <ul class="foot-item-box">
                     <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Buy Me A Coffee!</a></li> 
-                    <li><a href="https://trhgtung.github.io/git-page/" target="_blank">MoMo! (test)</a></li>
+                    <li><a href="#" target="_blank">MoMo! (test)</a></li>
                 </ul>
             </li>
         </div>

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pokemon won the final battle in World Championship">
-    <meta name="author" content="Hoang Tung">
+    <meta name="author" content="Admin">
     <meta name="generator" content="">
     <title>Neko Store - Mời bạn tải về file lịch treo tường các năm, phiên bản Pokémon</title>
 
@@ -157,7 +157,7 @@
 
       </div>
       <div class="col-md-5">
-        <img src="https://product.hstatic.net/200000343865/product/n-ca---tac-pham-chon-loc---van-hoc-my_b02780813f3a4dbb90b681de1be62cf2_509ad76e7bac40f09ed4c6dbbe32ab61_master.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="750" height="1334" focusable="false"></img>
+        <img src="asset/prev-1.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="750" height="1334" focusable="false"></img>
         <a href="2024-calendar.pdf" target="_blank" class="text-center mt-2 btn btn-primary">Download 2024</a>
 
       </div>
@@ -231,7 +231,7 @@
         <a href="#">Cuộn lên đầu trang</a>
       </p>
       <p class="mb-1">Nội dung sáng tạo các bài viết thuộc về &copy; Neko Team, chỉ phục vụ mục đích thương mại!</p>
-      <p class="mb-0"><strong>Hotline: </strong>0909-091-223 </p>
+      <p class="mb-0"><strong>Hotline: </strong>Not Available </p>
     </div>
   </footer>
   <script>

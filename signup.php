@@ -93,7 +93,7 @@ session_start();
                 <ul class="foot-item-box">
                     <li>Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996 </li>
                     <li>The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 913 Pokémon species (2019).</li>
-                    <li>Email: <a href="mailto:tungng14@gmail.com"><b>tungng14@gmail.com</b></a></li>
+                    <li>Email: <a href="#"><b>*******@gmail.com</b></a></li>
                 </ul>
             </li>
             <li>
