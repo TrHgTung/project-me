@@ -39,13 +39,13 @@
        </div>
         
     </header>
-    <section>
+    <section class="text-center">
         <img src="images/stars.png" alt="" id="stars">
         <img src="images/moon.png" alt="" id="moon">
         <img src="images/mountains_behind.png" alt="" id="mountains_behind">
         <img src="images/mountains_front.png" alt="" id="mountains_front">
-        <img src="images/little-pkm.png" alt="" id="little-pkm">
-        <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm">
+        <!-- <img src="images/little-pkm.png" alt="" id="little-pkm"> -->
+        <img src="images/combo-pokemon.png" alt="" id="little-starters-pkm">
         
         <div class="face-container">
             <div >
@@ -76,12 +76,12 @@
 
           if(!isset($_SESSION['user_id'])){
             echo '<form class="d-flex" action="login.php">
-              <a href="login.php" class="btn btn-warning button rounded-pill" role="button">Đăng nhập</a>
+              <a href="login.php" class="btn btn-warning button rounded-pill" role="button">Đăng nhập cá nhân</a>
             </form>';
           }
           else{
             echo '<form class="d-flex" action="logout.php">
-                <a href="./news/navigator.php" class="btn btn-warning button rounded-pill" role="button" >to the Pokémon world</a>
+                <a href="./news/navigator.php" class="btn btn-warning button rounded-pill" role="button" >Trang điều hướng</a>
             </form>';
           }
           ?>

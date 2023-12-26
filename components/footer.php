@@ -125,7 +125,7 @@
             <li>
                 <h3>Pokémon</h3>
                 <ul class="foot-item-box">
-                    <li>Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996 </li>
+                    <li>All rights reserved of the original content. Pokémon and all other names are the property of The Pokémon Company, Creatures Inc., Game Freak and Nintendo © 1996-2023 </li>
                 </ul>
             </li>
             <li>

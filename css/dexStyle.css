@@ -357,11 +357,11 @@ section img#little-starters-pkm {
     animation-duration: 5.5s;
 }
 
-section img#little-pkm {
+/* section img#little-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
     animation-duration: 5.5s;
-}
+} */
 
 #text {
     position: absolute;
@@ -750,11 +750,11 @@ section img#little-starters-pkm {
     animation-duration: 2s;
 }
 
-section img#little-pkm {
+/* section img#little-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
     animation-duration: 2s;
-}
+} */
 
 ul li,
 a,

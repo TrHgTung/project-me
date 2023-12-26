@@ -349,11 +349,11 @@ section img#little-starters-pkm {
     animation-duration: 1.5s;
 }
 
-section img#little-pkm {
+/* section img#little-pkm {
     position: absolute;
     animation-name: little-starters-pkm;
     animation-duration: 1.5s;
-}
+} */
 
 ul li,
 a,

@@ -60,8 +60,8 @@ session_start();
         <!-- a href="login.php" id="btn">to the Pokémon world</!-->
         <img src="images/login-style/mountains_front.png" alt="" id="mountains_front">
     
-        <img src="images/login-style/little-pkm.png" alt="" id="little-pkm">
-        <img src="images/login-style/little-starters-pkm.png" alt="" id="little-starters-pkm">
+        <!-- <img src="images/login-style/little-pkm.png" alt="" id="little-pkm"> -->
+        <img src="images/combo-pokemon.png" alt="" id="little-starters-pkm">
         
 <!--- downer here --->
         <center>

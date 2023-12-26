@@ -78,8 +78,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                     
             <img src="images/mountains_front.png" alt="" id="mountains_front">
                 
-            <img src="images/little-pkm.png" alt="" id="little-pkm">
-            <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm">
+            <!-- <img src="images/combo-pokemon.png" alt="" id="little-pkm"> -->
+            <img src="images/combo-pokemon.png" alt="" id="little-starters-pkm">
         </div>
                 <div class="container-all-contents mt-5 g-3 row">
                     <form action="" method="POST">

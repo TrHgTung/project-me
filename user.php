@@ -45,8 +45,9 @@
         <!-- <a href="pages/explorer.php" id="btn">to the Pokémon world</a> -->
         <img src="images/mountains_front.png" alt="" id="mountains_front">
     
-        <img src="images/little-pkm.png" alt="" id="little-pkm">
-        <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm">
+        <!-- <img src="images/little-pkm.png" alt="" id="little-pkm"> -->
+        <!-- <img src="images/little-starters-pkm.png" alt="" id="little-starters-pkm"> -->
+        <!-- <img src="images/combo-pokemon.png" alt="" id="little-starters-pkm"> -->
 
     </section>
    
